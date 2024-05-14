@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import { DiCode } from 'react-icons/di';
+import project1 from "./assets/project1.png";
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -39,10 +40,10 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: project1,
+    url: 'https://cruncher-calc.vercel.app/',
+    github: 'https://github.com/Shwet-Patel/Cruncher',
+    title: 'Cruncher',
+    text: 'Cruncher is a simple fitness app. This app will calculate your macros, BMI, Bodyfat and ideal weight for you.',
   }
 ];
