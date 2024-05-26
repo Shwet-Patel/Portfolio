@@ -2,6 +2,7 @@ import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import { DiCode } from 'react-icons/di';
 import project1 from "./assets/project1.png";
+import project2 from './assets/project2.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -40,10 +41,18 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: project2,
+    url: 'https://flickfinder-brown.vercel.app/',
+    github: 'https://github.com/Shwet-Patel/flickfinder',
+    title: 'Flick Finder',
+    text: "Flick Finder is a media database it contains all the information about movies and web series. You can find anything on that. Data is fetched from TMDB's API.",
+  },
+  {
+    id: nanoid(),
     img: project1,
     url: 'https://cruncher-calc.vercel.app/',
     github: 'https://github.com/Shwet-Patel/Cruncher',
     title: 'Cruncher',
-    text: 'Cruncher is a simple fitness app. This app will calculate your macros, BMI, Bodyfat and ideal weight for you.',
+    text: "Cruncher is a simple fitness app. This app will calculate your macros, BMI, Bodyfat and ideal weight for you.",
   }
 ];
