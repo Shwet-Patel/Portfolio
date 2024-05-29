@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import { DiCode } from 'react-icons/di';
 import project1 from "./assets/project1.png";
 import project2 from './assets/project2.png';
+import project3 from './assets/project3.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -46,6 +47,14 @@ export const projects = [
     github: 'https://github.com/Shwet-Patel/flickfinder',
     title: 'Flick Finder',
     text: "Flick Finder is a media database it contains all the information about movies and web series. You can find anything on that. Data is fetched from TMDB's API.",
+  },
+  {
+    id: nanoid(),
+    img: project3,
+    url: 'https://firstflight-two.vercel.app/',
+    github: 'https://github.com/Shwet-Patel/Firstflight',
+    title: 'FirstFlight Travels',
+    text: "FirstFlight is an elegant website for travel companies to shwcase their packages and tavel locations to their customers.",
   },
   {
     id: nanoid(),
