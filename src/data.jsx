@@ -1,9 +1,10 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
-import { DiCode } from 'react-icons/di';
+import { FaHtml5, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
+import { DiCode, DiMongodb, DiPostgresql } from 'react-icons/di';
 import project1 from "./assets/project1.png";
 import project2 from './assets/project2.png';
 import project3 from './assets/project3.png';
+import defaultimg from './assets/defaultimg.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -21,7 +22,7 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'Javascript',
+    title: 'JavaScript',
     icon: <FaJs className='h-16 w-16 text-emerald-500' />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
@@ -33,13 +34,39 @@ export const skills = [
   },
   {
     id: nanoid(),
+    title: 'Node.js & Express.js',
+    icon: <FaNodeJs className='h-16 w-16 text-emerald-500' />,
+    text: 'Experienced in building back-end services with Node.js and Express.js, focusing on creating RESTful APIs and handling server-side logic efficiently.',
+  },
+  {
+    id: nanoid(),
+    title: 'MongoDB',
+    icon: <DiMongodb className='h-16 w-16 text-emerald-500' />,
+    text: 'Proficient in MongoDB, utilizing NoSQL databases for scalable and flexible data storage solutions in full-stack applications.',
+  },
+  {
+    id: nanoid(),
+    title: 'PostgreSQL',
+    icon: <DiPostgresql className='h-16 w-16 text-emerald-500' />,
+    text: 'Skilled in PostgreSQL, managing relational databases and optimizing complex queries for robust and secure data management.',
+  },
+  {
+    id: nanoid(),
     title: 'Dev Tools',
     icon: <DiCode className='h-16 w-16 text-emerald-500' />,
-    text: 'Skilled in utilizing Tailwind CSS, GitHub, Netlify and VS Code. This versatile toolset ensures efficient project execution and seamless integration.',
+    text: 'Skilled in utilizing Tailwind CSS, GitHub, Netlify, and VS Code. This versatile toolset ensures efficient project execution and seamless integration.',
   }
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: defaultimg,
+    url: '',
+    github: 'https://github.com/Shwet-Patel/Book-store',
+    title: 'Book List',
+    text: "Book list is a simple list which will allow you to keep track of your readlist. You can add and remove your books in the list and customize your list accordingly."
+  },
   {
     id: nanoid(),
     img: project2,

@@ -9,7 +9,7 @@ const Hero = () => {
                 <div>
                     <h1 className="text-4xl font-bold tracking-wider">Hi,</h1>
                     <h1 className="text-7xl font-bold tracking-wider">I'm <span className=" text-emerald-700">Shwet</span></h1>
-                    <p className="mt-4 text-3xl  text-slate-500 tracking-wide capitalize">Front-end Developer</p>
+                    <p className="mt-4 text-3xl  text-slate-500 tracking-wide capitalize">Web Developer</p>
                     <p className="mt-2 text-lg text-slate-700 tracking-wide capitalize">Turning ideas into reality</p>
                     <div className="flex flex-row mt-4 gap-x-4">
                         <a href="https://github.com/Shwet-Patel">
